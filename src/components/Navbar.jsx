@@ -5,9 +5,8 @@ export default function Navbar() {
 
   return (
     <nav className="nav">
-      <div className="logo">Mohan.dev</div>
+      <div className="nav-logo">Mohan.dev</div>
 
-      {/* Desktop + Mobile Links */}
       <div className={`nav-links ${open ? "open" : ""}`}>
         <a href="#home" onClick={() => setOpen(false)}>Home</a>
         <a href="#about" onClick={() => setOpen(false)}>About</a>
@@ -16,7 +15,6 @@ export default function Navbar() {
         <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
       </div>
 
-      {/* Hamburger */}
       <div
         className={`hamburger ${open ? "active" : ""}`}
         onClick={() => setOpen(!open)}
