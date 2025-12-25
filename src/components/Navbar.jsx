@@ -5,7 +5,8 @@ export default function Navbar() {
 
   return (
     <nav className="nav">
-      <div className="nav-logo">Mohan.dev</div>
+      <div className="nav-logo"> Mohan<span>.dev</span></div>
+
 
       <div className={`nav-links ${open ? "open" : ""}`}>
         <a href="#home" onClick={() => setOpen(false)}>Home</a>

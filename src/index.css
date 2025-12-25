@@ -443,3 +443,22 @@ section p {
   }
 }
 
+
+.nav-logo {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--text-main);
+  cursor: pointer;
+}
+
+.nav-logo span {
+  color: var(--accent);
+}
+@media (max-width: 600px) {
+  .nav-logo {
+    font-size: 1.3rem;
+  }
+}
+
+
